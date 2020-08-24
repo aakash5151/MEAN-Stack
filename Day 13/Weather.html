@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Weather</title>
+    <script src="weather.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row bg-danger" style="height: 100px;">
+            <div class="col d-flex justify-content-center align-items-center "
+                style="font-size:40px;color:white;font-family:Verdana, Geneva, Tahoma, sans-serif;">
+                Weather Forecast
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col d-flex pl-5">
+
+                <input class="form-control form-control-block " style=" width:250px" type="text" id="text"
+                    placeholder="Enter city name">
+                <button class="btn btn-block btn-outline-primary" style="width:100px"
+                    onclick="getweather()">Search</button>
+
+            </div>
+
+        </div>
+
+        <div id="parent">
+            <div
+                style="display:none;background:lightslategrey;color:white;font-size:20px;height: 40px;margin:3px;width:150px;justify-content: center;align-items: center;">
+                sample 30
+            </div>
+
+
+            <!-- <div class="row" style="height:50px">
+            <div id="parent" class="col">
+                <div style="display:none;background:lightpinks;color:black;font-size:16px">
+                    sample 30
+                </div>
+
+            </div>
+
+        </div> -->
+
+
+        </div>
+</body>
+
+</html>
